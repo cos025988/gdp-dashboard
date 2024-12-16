@@ -12,7 +12,11 @@ st.set_page_config(
 # -----------------------------------------------------------------------------
 # Declare some useful functions.
 
+
+# Use cache data
 @st.cache_data
+
+# Grab data
 def get_gdp_data():
     """Grab GDP data from a CSV file.
 
